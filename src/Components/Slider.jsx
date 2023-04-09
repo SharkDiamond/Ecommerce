@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import { sliderItems } from '../../data'
 import SlidePage from '../Pages/Home/SlidePage'
+import { mobile } from '../responsive'
 
 
 const Container = styled.div`
@@ -14,6 +15,8 @@ const Container = styled.div`
     background-color: white;
     position: relative;
     overflow: hidden;
+    ${mobile({display:"none"})}
+
 `
 const Arrow = styled.div`
 

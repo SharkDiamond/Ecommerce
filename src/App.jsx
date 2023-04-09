@@ -9,7 +9,7 @@ import { Register } from './Pages/Register/Register'
 
 const  App=()=> {
  
-  return  <Cart/>
+  return  <Home/>
 
 }
 
